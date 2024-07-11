@@ -52,14 +52,14 @@ ul li a,button{
 .nab_btn{
     border: none;
      padding: 15px 20px;
-     color: white;
+     background-color: white;
+     border: 1px solid rgb(253, 110, 10);
      border-radius: 5px;
-     background-color: rgb(253, 110, 10);
+     color: rgb(253, 110, 10);
 }
 .nab_btn:hover{
-    border: 1px solid rgb(253, 110, 10);
-    color: rgb(253, 110, 10);
-    background-color: white;
+    color: white;
+    background-color: rgb(253, 110, 10);
     transition: all 0.7s;
 }
 
@@ -284,7 +284,9 @@ font-weight: 400;
     font-size: 50px;
     margin-top: 40px;
 }
-.sicon i{
+.sicon > a > i{
+    
+    color: aqua;
     margin-right: 20px;
     
 }
