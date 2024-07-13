@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
-    margin: 0 10px;
+    margin: 0 1px;
     padding: 0;
 }
 ul,li,a,button{
@@ -183,6 +183,7 @@ font-weight: 400;
 font-size: 20px;
 font-weight: 700;
 }
+
 .whattxt{
     text-align: center;
 }
@@ -315,7 +316,7 @@ font-size: 16px;
 font-weight: 400;
 }
 
-@media only screen and (max-width: 527px) {
+@media only screen and (max-width: 430px) {
     .HEADER {
     background: none;
     height: auto;
@@ -361,7 +362,7 @@ font-weight: 400;
         margin-top: 60px;
     }
     .btn_bnr {
-        margin-top: -20px;
+        margin-top: 0px;
         display: flex;
         width: 100%;
     }
@@ -409,10 +410,42 @@ font-weight: 400;
         font-weight: 400;
     }
     .bnr_dnld {
-        
-        
         padding: 3px 5px;
-        
-        
+    }
+    .whattxt h3 {
+        color: rgb(24, 24, 24);
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .whattxt p {
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        word-wrap: break-word;
+        padding: 0 30px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .what{
+        margin-top: 10px;
+    }
+    .whatskil {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .whtskil1 h3 {
+        color: rgb(24, 24, 24);
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .whtskil1 p {
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        word-wrap: break-word;
+        font-size: 10px;
+        font-weight: 400;
     }
     }
