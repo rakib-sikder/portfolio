@@ -460,4 +460,55 @@ font-weight: 400;
         font-size: 20px;
         font-weight: 700;
     }
+    .minhad {
+        color: rgb(71, 71, 71);
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .edudtl_had {
+        color: rgb(71, 71, 71);
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .edudtl_had2 {
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .edudtl_txt {
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .footr h2 {
+        color: rgb(24, 24, 24);
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .footr p {
+        color: rgb(71, 71, 71);
+        font-family: Open Sans;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .namemail input {
+        width: 100%;
+        height: 15px;
+    }
+    .sicon {
+        font-size: 23px;
+        margin-top: 25px;
+    }
+    .cv {
+        text-align: center;
+        margin-top: 30px;
+    }
     }
