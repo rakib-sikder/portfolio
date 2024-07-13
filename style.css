@@ -161,6 +161,7 @@ font-weight: 700;
 }
 
 .txt p{
+    word-wrap: break-word;
     color: rgb(117, 117, 117);
 font-family: Open Sans;
 font-size: 18px;
@@ -309,3 +310,105 @@ font-family: Open Sans;
 font-size: 16px;
 font-weight: 400;
 }
+
+@media only screen and (max-width: 527px) {
+    .HEADER {
+    background: none;
+    height: auto;
+    }
+    .nav_styl {
+        padding: 0 ;
+    }
+    .nm_dgn {
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .nav_ul li {
+        margin: 0px 5px;
+    }
+    .nab_btn {
+        padding: 3px 5px;
+    }
+    .bnrtxt1 {
+        font-weight: 600;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        color: rgb(71, 71, 71);
+        margin: 0px 0 0 0;
+    }
+    .bnrtxt2 {
+        color: rgb(24, 24, 24);
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .bnrtxt3 {
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .bnr_pic img {
+        height: 160px;
+    }
+    .bnr_edt{
+        margin-top: 60px;
+    }
+    .btn_bnr {
+        margin-top: -20px;
+        display: flex;
+        width: 100%;
+    }
+    ul li a , button {
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        font-size: 9px;
+    }
+    .bnr_pic_bg {
+        background: none;
+        width: auto;
+        height: auto;
+    }
+    .txt h3 {
+        color: rgb(24, 24, 24);
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    li p span {
+        font-family: Open Sans;
+        color: rgb(117, 117, 117);
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .about_txt ul li p {
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .about_portfolio {
+        margin-top: 20px;
+        height: auto;
+    }
+    .about_txt {
+        width: auto;
+        height: auto;
+    }
+    .txt p {
+        word-wrap: break-word;
+        padding: 0 30px;
+        color: rgb(117, 117, 117);
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .bnr_dnld {
+        
+        
+        padding: 3px 5px;
+        
+        
+    }
+    }
